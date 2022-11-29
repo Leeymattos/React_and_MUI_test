@@ -4,7 +4,7 @@ interface ICustomButtonProps {
   backgroundColor: string,
   color: string,
   buttonText: string
-  heroBtn: boolean,
+  heroBtn?: boolean,
   guideBtn?: boolean,
   getStartedBtn?: boolean
 }
